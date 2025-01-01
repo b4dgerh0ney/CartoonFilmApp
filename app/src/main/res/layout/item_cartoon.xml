@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/cartoonName1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Rick and Morty"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/cartoonImage1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ricky_and_morty" />
+
+
+    <TextView
+        android:id="@+id/cartoonName2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Regular Show"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/cartoonImage2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/regular_show" />
+
+
+
+    <TextView
+        android:id="@+id/cartoonName3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Sponge Bob"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/cartoonImage3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/sponge_bob" />
+
+
+    <TextView
+        android:id="@+id/cartoonName4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tom and Jerry"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/cartoonImage4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/tom_and_jerry" />
+
+
+    <TextView
+        android:id="@+id/cartoonName5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Batman"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/cartoonImage5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/batman" />
+
+
+
+
+
+</LinearLayout>
